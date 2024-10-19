@@ -78,7 +78,7 @@
 - Github
 
 ```
-wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/doughnutscranberry/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
+apt install wget -y && wget -P /root -N --no-check-certificate "https://raw.githubusercontent.com/doughnutscranberry/v2ray-agent/master/install.sh" && chmod 700 /root/install.sh && /root/install.sh
 ```
 
 - 官方网站【备用】
